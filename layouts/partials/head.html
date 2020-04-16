@@ -35,6 +35,7 @@
 {{ range .Site.Params.customCSS -}}
     <link rel="stylesheet" href="{{ "css/" | relURL }}{{ . }}">
 {{ end }}
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
 
 <link rel="canonical" href="{{ .Permalink }}">
 {{- with .OutputFormats.Get "RSS" }}
