@@ -1,9 +1,9 @@
 .homepage-image {
     @include media-breakpoint-up(lg) {
-        position: absolute;
+        position: relative;
         width: 400px;
-        right: 100px;
-        top: 0;
+        float: right;
+        margin-left: 2rem;
     }
 }
 
